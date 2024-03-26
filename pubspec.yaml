@@ -1,0 +1,81 @@
+name: dine_trip
+description: "A project for exploring dining options."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  #Provider state management
+  provider: ^6.0.5
+
+  #Shared preference (local storage)
+  shared_preferences: ^2.1.2
+
+  #Local Database (local storage)
+  hive: ^2.2.3
+
+  #Assets generator
+  flutter_gen: ^5.4.0
+
+  #AutoRoute (routing package)
+  auto_route: 7.9.2
+
+  #Loading indicator
+  skeletonizer: ^1.1.1
+
+  #Easy Loading indicator
+  flutter_easyloading: ^3.0.5
+
+  #localization
+  easy_localization: ^3.0.5
+
+  #Staggered grid view
+  flutter_staggered_grid_view: ^0.6.2
+
+  #Screen responsiveness
+  flutter_screenutil: ^5.8.4
+
+  #Check internet connection
+  internet_connection_checker: 1.0.0+1
+
+  #Network client
+  dio: ^5.2.1+1
+  pretty_dio_logger: ^1.3.1
+
+  #Toast
+  fluttertoast: ^8.2.1
+
+  #Dependency injection
+  get_it: ^7.6.0
+  injectable: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  injectable_generator: 2.5.1
+  build_runner:
+  flutter_gen_runner:
+  auto_route_generator: 7.3.1
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Nexa
+      fonts:
+        - asset: assets/fonts/Nexa/Nexa_Light.otf
+    - family: NexaBold
+      fonts:
+        - asset: assets/fonts/Nexa/Nexa_bold.otf
+    - family: NexaRegular
+      fonts:
+        - asset: assets/fonts/Nexa/Nexa_regular.otf
